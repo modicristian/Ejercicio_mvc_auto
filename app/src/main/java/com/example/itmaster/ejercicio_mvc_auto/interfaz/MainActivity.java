@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity
     private ListenerOnclickGuardar listenerOnclickGuardar;
     private ListenerOnclickVer listenerOnclickVer;
     private Auto UnAuto;
-    private ControladorAuto controladorAuto;
+    private ControladorAuto controladorAuto = new ControladorAuto();
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
