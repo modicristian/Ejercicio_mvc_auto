@@ -33,7 +33,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/modelo"
         android:layout_marginTop="10dp"
-        android:id="@+id/año"/>
+        android:id="@+id/anio"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -41,7 +41,7 @@
         android:hint="INGRESAR KM"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/año"
+        android:layout_below="@+id/anio"
         android:layout_marginTop="10dp"
         android:id="@+id/kilometros"/>
 

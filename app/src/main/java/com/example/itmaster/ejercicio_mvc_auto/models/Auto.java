@@ -3,7 +3,7 @@ package com.example.itmaster.ejercicio_mvc_auto.models;
 public class Auto
 {
     private String marca, modelo;
-    private Integer año, kilometros;
+    private Integer anio, kilometros;
 
     public String getMarca() {
         return marca;
@@ -21,12 +21,12 @@ public class Auto
         this.modelo = modelo;
     }
 
-    public Integer getAño() {
-        return año;
+    public Integer getAnio() {
+        return anio;
     }
 
-    public void setAño(Integer año) {
-        this.año = año;
+    public void setAnio(Integer anio) {
+        this.anio = anio;
     }
 
     public Integer getKilometros() {
