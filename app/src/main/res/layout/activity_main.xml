@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".interfaz.MainActivity"
     android:layout_margin="25dp">
 
     <EditText
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:text="GUARDAR"
-        android:layout_above="@+id/ingresarID"
+        android:layout_above="@+id/ingresarId"
         android:layout_alignParentLeft="true"
         android:id="@+id/botonGuardar"/>
 
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:text="VER"
-        android:layout_above="@+id/ingresarID"
+        android:layout_above="@+id/ingresarId"
         android:layout_alignParentRight="true"
         android:id="@+id/botonVer"/>
 
@@ -70,6 +70,7 @@
         android:textAlignment="center"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:id="@+id/ingresarID"/>
+        android:id="@+id/ingresarId"
+        />
 
 </RelativeLayout>
