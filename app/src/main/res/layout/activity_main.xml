@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:text="GUARDAR"
-        android:layout_above="@+id/ingresarId"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:id="@+id/botonGuardar"/>
 
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:text="VER"
-        android:layout_above="@+id/ingresarId"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:id="@+id/botonVer"/>
 
@@ -68,8 +68,9 @@
         android:layout_height="wrap_content"
         android:hint="INGRESE ID"
         android:textAlignment="center"
+        android:layout_centerInParent="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/botonVer"
         android:id="@+id/ingresarId"
         />
 
