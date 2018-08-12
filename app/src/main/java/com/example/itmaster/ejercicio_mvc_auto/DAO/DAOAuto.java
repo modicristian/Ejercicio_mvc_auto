@@ -13,4 +13,12 @@ public class DAOAuto
     {
         arrayListAuto.add(unAuto);
     }
+
+    public ArrayList<Auto> getArrayListAuto() {
+        return arrayListAuto;
+    }
+
+    public void setArrayListAuto(ArrayList<Auto> arrayListAuto) {
+        this.arrayListAuto = arrayListAuto;
+    }
 }
