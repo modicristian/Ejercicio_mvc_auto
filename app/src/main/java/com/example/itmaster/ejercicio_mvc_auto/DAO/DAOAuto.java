@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class DAOAuto
 {
-    ArrayList<Auto> arrayListAuto = new ArrayList<>();
+    private ArrayList<Auto> arrayListAuto = new ArrayList<>();
 
 
     public void addAuto(Auto unAuto)
@@ -20,5 +20,15 @@ public class DAOAuto
 
     public void setArrayListAuto(ArrayList<Auto> arrayListAuto) {
         this.arrayListAuto = arrayListAuto;
+    }
+
+    public Auto getAuto(Integer i)
+    {
+        return arrayListAuto.get(i);
+    }
+
+    public Integer getsizeArrayListAuto()
+    {
+        return arrayListAuto.size();
     }
 }

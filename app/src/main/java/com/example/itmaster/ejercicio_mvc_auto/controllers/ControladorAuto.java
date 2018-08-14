@@ -11,5 +11,15 @@ public class ControladorAuto
     {
         daoAuto.addAuto(unAuto);
     }
+
+    public Auto getAuto (Integer i)
+    {
+        return daoAuto.getAuto(i);
+    }
+    public Integer cantidadAuto ()
+    {
+        return daoAuto.getsizeArrayListAuto();
+    }
+
 }
 
